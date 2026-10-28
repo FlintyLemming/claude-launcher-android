@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ClaudeLauncher" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Brand Colors -->
+        <item name="colorPrimary">@color/m3_dark_primary</item>
+        <item name="colorOnPrimary">@color/m3_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/m3_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/m3_dark_onPrimaryContainer</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/m3_dark_secondary</item>
+        <item name="colorOnSecondary">@color/m3_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/m3_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/m3_dark_onSecondaryContainer</item>
+
+        <!-- Tertiary Colors -->
+        <item name="colorTertiary">@color/m3_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/m3_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/m3_dark_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/m3_dark_onTertiaryContainer</item>
+
+        <!-- Error Colors -->
+        <item name="colorError">@color/m3_dark_error</item>
+        <item name="colorOnError">@color/m3_dark_onError</item>
+        <item name="colorErrorContainer">@color/m3_dark_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/m3_dark_onErrorContainer</item>
+
+        <!-- Surface & Background Roles -->
+        <item name="android:colorBackground">@color/m3_dark_background</item>
+        <item name="colorOnBackground">@color/m3_dark_onBackground</item>
+        <item name="colorSurface">@color/m3_dark_surface</item>
+        <item name="colorOnSurface">@color/m3_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/m3_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/m3_dark_onSurfaceVariant</item>
+
+        <item name="colorSurfaceContainerLowest">@color/m3_dark_surfaceContainerLowest</item>
+        <item name="colorSurfaceContainerLow">@color/m3_dark_surfaceContainerLow</item>
+        <item name="colorSurfaceContainer">@color/m3_dark_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/m3_dark_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/m3_dark_surfaceContainerHighest</item>
+
+        <item name="colorOutline">@color/m3_dark_outline</item>
+        <item name="colorOutlineVariant">@color/m3_dark_outlineVariant</item>
+
+        <!-- Edge to Edge System Bars -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Preference Theme -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+</resources>

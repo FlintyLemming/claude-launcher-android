@@ -1,0 +1,27 @@
+<resources>
+    <string-array name="detection_mode_labels">
+        <item>仅检查 VPN (极速 · 毫秒响应)</item>
+        <item>请求 Claude 检测 (精准 · 检查出口地区)</item>
+    </string-array>
+
+    <string-array name="detection_mode_values">
+        <item>vpn</item>
+        <item>claude_trace</item>
+    </string-array>
+
+    <string-array name="timeout_labels">
+        <item>1 秒 (超快)</item>
+        <item>2 秒</item>
+        <item>3 秒 (推荐)</item>
+        <item>5 秒</item>
+        <item>8 秒</item>
+    </string-array>
+
+    <string-array name="timeout_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+    </string-array>
+</resources>

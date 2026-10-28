@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ClaudeLauncher" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Brand Colors -->
+        <item name="colorPrimary">@color/m3_light_primary</item>
+        <item name="colorOnPrimary">@color/m3_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/m3_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/m3_light_onPrimaryContainer</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/m3_light_secondary</item>
+        <item name="colorOnSecondary">@color/m3_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/m3_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/m3_light_onSecondaryContainer</item>
+
+        <!-- Tertiary Colors -->
+        <item name="colorTertiary">@color/m3_light_tertiary</item>
+        <item name="colorOnTertiary">@color/m3_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/m3_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/m3_light_onTertiaryContainer</item>
+
+        <!-- Error Colors -->
+        <item name="colorError">@color/m3_light_error</item>
+        <item name="colorOnError">@color/m3_light_onError</item>
+        <item name="colorErrorContainer">@color/m3_light_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/m3_light_onErrorContainer</item>
+
+        <!-- Surface & Background Roles -->
+        <item name="android:colorBackground">@color/m3_light_background</item>
+        <item name="colorOnBackground">@color/m3_light_onBackground</item>
+        <item name="colorSurface">@color/m3_light_surface</item>
+        <item name="colorOnSurface">@color/m3_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/m3_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/m3_light_onSurfaceVariant</item>
+
+        <item name="colorSurfaceContainerLowest">@color/m3_light_surfaceContainerLowest</item>
+        <item name="colorSurfaceContainerLow">@color/m3_light_surfaceContainerLow</item>
+        <item name="colorSurfaceContainer">@color/m3_light_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/m3_light_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/m3_light_surfaceContainerHighest</item>
+
+        <item name="colorOutline">@color/m3_light_outline</item>
+        <item name="colorOutlineVariant">@color/m3_light_outlineVariant</item>
+
+        <!-- Edge to Edge System Bars -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Preference Theme -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="Theme.ClaudeLauncher.Translucent" parent="Theme.ClaudeLauncher">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+</resources>

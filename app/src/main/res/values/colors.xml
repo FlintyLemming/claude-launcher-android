@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Claude Brand Colors -->
+    <color name="claude_brand_terracotta">#D97757</color>
+    <color name="claude_brand_cream">#FAF6F0</color>
+    <color name="claude_brand_dark">#1F1E1D</color>
+
+    <!-- Material Design 3 Palette: Light Mode -->
+    <color name="m3_light_primary">#984716</color>
+    <color name="m3_light_onPrimary">#FFFFFF</color>
+    <color name="m3_light_primaryContainer">#FFDBD0</color>
+    <color name="m3_light_onPrimaryContainer">#3B0900</color>
+
+    <color name="m3_light_secondary">#77574E</color>
+    <color name="m3_light_onSecondary">#FFFFFF</color>
+    <color name="m3_light_secondaryContainer">#FFDBD0</color>
+    <color name="m3_light_onSecondaryContainer">#2C160F</color>
+
+    <color name="m3_light_tertiary">#6C5D2F</color>
+    <color name="m3_light_onTertiary">#FFFFFF</color>
+    <color name="m3_light_tertiaryContainer">#F6E2A7</color>
+    <color name="m3_light_onTertiaryContainer">#231B00</color>
+
+    <color name="m3_light_error">#BA1A1A</color>
+    <color name="m3_light_onError">#FFFFFF</color>
+    <color name="m3_light_errorContainer">#FFDAD6</color>
+    <color name="m3_light_onErrorContainer">#410002</color>
+
+    <color name="m3_light_background">#FFF8F6</color>
+    <color name="m3_light_onBackground">#231A16</color>
+
+    <color name="m3_light_surface">#FFF8F6</color>
+    <color name="m3_light_onSurface">#231A16</color>
+    <color name="m3_light_surfaceVariant">#F5DED7</color>
+    <color name="m3_light_onSurfaceVariant">#53433F</color>
+
+    <color name="m3_light_surfaceContainerLowest">#FFFFFF</color>
+    <color name="m3_light_surfaceContainerLow">#FFF1EC</color>
+    <color name="m3_light_surfaceContainer">#FBEAE4</color>
+    <color name="m3_light_surfaceContainerHigh">#F6E4DE</color>
+    <color name="m3_light_surfaceContainerHighest">#F0DFD8</color>
+
+    <color name="m3_light_outline">#85736E</color>
+    <color name="m3_light_outlineVariant">#D8C2BC</color>
+
+    <!-- Material Design 3 Palette: Dark Mode -->
+    <color name="m3_dark_primary">#FFB59F</color>
+    <color name="m3_dark_onPrimary">#5C1900</color>
+    <color name="m3_dark_primaryContainer">#7A2F08</color>
+    <color name="m3_dark_onPrimaryContainer">#FFDBD0</color>
+
+    <color name="m3_dark_secondary">#E7BDB1</color>
+    <color name="m3_dark_onSecondary">#442A22</color>
+    <color name="m3_dark_secondaryContainer">#5D3F37</color>
+    <color name="m3_dark_onSecondaryContainer">#FFDBD0</color>
+
+    <color name="m3_dark_tertiary">#D9C68D</color>
+    <color name="m3_dark_onTertiary">#3B2F05</color>
+    <color name="m3_dark_tertiaryContainer">#53451A</color>
+    <color name="m3_dark_onTertiaryContainer">#F6E2A7</color>
+
+    <color name="m3_dark_error">#FFB4AB</color>
+    <color name="m3_dark_onError">#690005</color>
+    <color name="m3_dark_errorContainer">#93000A</color>
+    <color name="m3_dark_onErrorContainer">#FFDAD6</color>
+
+    <color name="m3_dark_background">#1A110F</color>
+    <color name="m3_dark_onBackground">#F1DFD8</color>
+
+    <color name="m3_dark_surface">#1A110F</color>
+    <color name="m3_dark_onSurface">#F1DFD8</color>
+    <color name="m3_dark_surfaceVariant">#53433F</color>
+    <color name="m3_dark_onSurfaceVariant">#D8C2BC</color>
+
+    <color name="m3_dark_surfaceContainerLowest">#140C0A</color>
+    <color name="m3_dark_surfaceContainerLow">#231A17</color>
+    <color name="m3_dark_surfaceContainer">#271E1B</color>
+    <color name="m3_dark_surfaceContainerHigh">#322825</color>
+    <color name="m3_dark_surfaceContainerHighest">#3D3330</color>
+
+    <color name="m3_dark_outline">#A08C86</color>
+    <color name="m3_dark_outlineVariant">#53433F</color>
+
+    <!-- Semantic / Status indicators -->
+    <color name="status_green">#10B981</color>
+    <color name="status_amber">#F59E0B</color>
+    <color name="status_red">#EF4444</color>
+</resources>

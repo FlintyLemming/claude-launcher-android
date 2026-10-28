@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Claude</string>
+    <string name="settings_title">Claude 启动器设置</string>
+    <string name="shortcut_settings_short">设置</string>
+    <string name="shortcut_settings_long">启动器设置</string>
+
+    <string name="dialog_title_blocked">⚠️ 代理检测未通过</string>
+    <string name="dialog_msg_blocked">检测到当前访问 Claude 的网络出口 IP 属于受限地区，直接连接可能会导致封号或无法加载。\n\n当前出口 IP: %1$s\n所在地区: %2$s</string>
+    <string name="dialog_title_error">⚠️ 网络无法连通 Claude</string>
+    <string name="dialog_msg_error">无法直接连接至 Claude 服务器，可能已被网络防火墙阻断或连接超时。\n\n详情: %1$s</string>
+
+    <string name="dialog_title_vpn_missing">⚠️ 未开启 VPN / 代理</string>
+    <string name="dialog_msg_vpn_missing">当前检测模式为「仅检查 VPN」，未检测到设备已建立 VPN 代理连接。直接启动可能无法加载 Claude 或受地区限制。</string>
+
+    <string name="btn_open_proxy">打开代理</string>
+    <string name="btn_retry">重新检测</string>
+    <string name="btn_launch_anyway">仍然启动</string>
+    <string name="btn_settings">设置</string>
+
+    <string name="checking_network">正在向 Claude 服务器发起分流检测…</string>
+    <string name="checking_vpn">正在检测 VPN 连接状态…</string>
+    <string name="claude_not_installed">未检测到 Claude 客户端，正在使用浏览器打开…</string>
+</resources>

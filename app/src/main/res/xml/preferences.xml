@@ -1,0 +1,94 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Top M3 Hero Status Card -->
+    <com.flintylemming.claudelauncher.ui.HeroPreference
+        android:key="pref_hero_header"
+        app:iconSpaceReserved="false" />
+
+    <PreferenceCategory
+        android:title="检测模式"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="claude_trace"
+            android:entries="@array/detection_mode_labels"
+            android:entryValues="@array/detection_mode_values"
+            android:key="pref_detection_mode"
+            android:summary="选择启动 Claude 前的检测方式"
+            android:title="启动检测模式"
+            app:icon="@drawable/ic_tune"
+            app:iconSpaceReserved="true"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_trace_rules"
+        android:title="Claude 探测规则 (请求检测模式)"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:defaultValue="CN, HK"
+            android:dialogTitle="输入受限地区两字代码"
+            android:key="pref_blocked_regions"
+            android:summary="配置需要拦截的国家/地区两字代码，英文逗号分隔（默认：CN, HK）"
+            android:title="受限地区代码"
+            app:icon="@drawable/ic_globe"
+            app:iconSpaceReserved="true"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/timeout_labels"
+            android:entryValues="@array/timeout_values"
+            android:key="pref_timeout_seconds_list"
+            android:summary="超过此时长未连通视为受阻断（默认 3 秒）"
+            android:title="检测超时时长"
+            app:icon="@drawable/ic_timer"
+            app:iconSpaceReserved="true"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            android:defaultValue="https://claude.ai/cdn-cgi/trace"
+            android:dialogTitle="Cloudflare Trace 检测地址"
+            android:key="pref_trace_url"
+            android:summary="精准触发针对 Claude 域名的分流规则"
+            android:title="Trace 检测端点"
+            app:icon="@drawable/ic_link"
+            app:iconSpaceReserved="true"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="代理联动"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_preferred_proxy"
+            android:summary="选择拦截后点击「打开代理」时调起的代理客户端"
+            android:title="唤醒代理软件"
+            app:icon="@drawable/ic_proxy"
+            app:iconSpaceReserved="true"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="工具与操作"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="pref_test_connection"
+            android:summary="即刻测试当前检测模式下的网络与连通状态"
+            android:title="即时测试网络状态"
+            app:icon="@drawable/ic_speed"
+            app:iconSpaceReserved="true" />
+
+        <Preference
+            android:key="pref_about"
+            android:summary="版本 1.0.0 · Material Design 3 · 本地无埋点"
+            android:title="关于 Claude 启动器"
+            app:icon="@drawable/ic_info"
+            app:iconSpaceReserved="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
