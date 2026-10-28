@@ -10,3 +10,9 @@
 captures
 .externalNativeBuild
 .cxx
+
+# Signing Keystores
+*.jks
+*.keystore
+*.base64.txt
+
