@@ -1,5 +1,10 @@
 # Claude 启动器 (Claude Launcher for Android)
 
+[![GitHub Release](https://img.shields.io/github/v/release/FlintyLemming/claude-launcher-android?color=blue&logo=github)](https://github.com/FlintyLemming/claude-launcher-android/releases/latest)
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?logo=android)](https://github.com/FlintyLemming/claude-launcher-android/releases/latest)
+
+> 📥 **下载安装**：前往 [GitHub Releases](https://github.com/FlintyLemming/claude-launcher-android/releases/latest) 获取最新发布的安装包（`.apk`）。
+
 > [!WARNING]
 > **免责声明**：**本工具只是图一乐，并不能帮助你避免被 Claude 封号**。账号安全与风控机制取决于你的节点纯净度、代理质量及 Anthropic 官方策略，本启动器仅作为在启动应用前的网络/代理状态检查与拦截辅助工具，请理性使用。
 
